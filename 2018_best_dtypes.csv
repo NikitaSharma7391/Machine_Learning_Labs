@@ -1,0 +1,70 @@
+Column,Dtype
+Flow Duration,int32
+Tot Fwd Pkts,int32
+Tot Bwd Pkts,int32
+TotLen Fwd Pkts,int32
+TotLen Bwd Pkts,int32
+Fwd Pkt Len Max,int32
+Fwd Pkt Len Min,int16
+Fwd Pkt Len Mean,float16
+Fwd Pkt Len Std,float16
+Bwd Pkt Len Max,int32
+Bwd Pkt Len Min,int16
+Bwd Pkt Len Mean,float16
+Bwd Pkt Len Std,float16
+Flow Byts/s,float32
+Flow Pkts/s,float32
+Flow IAT Mean,float32
+Flow IAT Std,float32
+Flow IAT Max,int32
+Flow IAT Min,int32
+Fwd IAT Tot,int32
+Fwd IAT Mean,float32
+Fwd IAT Std,float32
+Fwd IAT Max,int32
+Fwd IAT Min,int32
+Bwd IAT Tot,int32
+Bwd IAT Mean,float32
+Bwd IAT Std,float32
+Bwd IAT Max,int32
+Bwd IAT Min,int32
+Fwd PSH Flags,int8
+Fwd URG Flags,int8
+Fwd Header Len,int32
+Bwd Header Len,int32
+Fwd Pkts/s,float32
+Bwd Pkts/s,float32
+Pkt Len Min,int16
+Pkt Len Max,int32
+Pkt Len Mean,float16
+Pkt Len Std,float16
+Pkt Len Var,float32
+FIN Flag Cnt,int8
+SYN Flag Cnt,int8
+RST Flag Cnt,int8
+PSH Flag Cnt,int8
+ACK Flag Cnt,int8
+URG Flag Cnt,int8
+CWE Flag Count,int8
+ECE Flag Cnt,int8
+Down/Up Ratio,int16
+Pkt Size Avg,float16
+Fwd Seg Size Avg,float16
+Bwd Seg Size Avg,float16
+Subflow Fwd Pkts,int32
+Subflow Fwd Byts,int32
+Subflow Bwd Pkts,int32
+Subflow Bwd Byts,int32
+Init Fwd Win Byts,int32
+Init Bwd Win Byts,int32
+Fwd Act Data Pkts,int32
+Fwd Seg Size Min,int8
+Active Mean,float32
+Active Std,float32
+Active Max,int32
+Active Min,int32
+Idle Mean,float32
+Idle Std,float32
+Idle Max,int32
+Idle Min,int32
+Label,object
